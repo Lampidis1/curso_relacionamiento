@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Guía de curso · Relacionamiento Comunitario Territorial · UAI 2026</title>
+  <style>
+    :root{--ink:#17263d;--muted:#5a687a;--blue:#173e73;--cyan:#24a8be;--gold:#e6b34b;--paper:#f5f7fa;--line:#dbe3eb;--white:#fff;--red:#a64040;--green:#136e5d}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink)}
+    .hero{background:linear-gradient(125deg,#12294c,#174875 65%,#146274);color:#fff;padding:48px max(24px,calc((100vw - 1120px)/2)) 62px}.eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:.75rem;font-weight:800;color:#99e1e8}.hero h1{max-width:850px;font-size:clamp(2.2rem,5vw,4.3rem);line-height:1.07;margin:15px 0}.hero p{max-width:730px;color:#d9e8f0;font-size:1.1rem}.hero .pill{display:inline-block;background:#ffffff20;border:1px solid #ffffff50;border-radius:100px;padding:7px 13px;margin:7px 8px 0 0;font-size:.85rem}.zoom-link{display:inline-block;background:#fff;color:#173e73;text-decoration:none;font-weight:800;border-radius:11px;padding:12px 18px;margin:18px 0 2px;box-shadow:0 6px 18px #061a3440}.zoom-link:hover,.zoom-link:focus-visible{background:#dff6f7}.zoom-note{display:block;color:#d9e8f0;font-size:.85rem}
+    nav{position:sticky;top:0;z-index:10;background:#fffefc;border-bottom:1px solid var(--line);box-shadow:0 4px 16px #1234560a;overflow-x:auto}nav .inner{max-width:1120px;margin:auto;display:flex;gap:6px;padding:8px 16px;white-space:nowrap}nav a{color:var(--blue);text-decoration:none;padding:9px 12px;border-radius:9px;font-size:.88rem;font-weight:700}nav a:hover,nav a:focus-visible{background:#eaf4f7}
+    main{max-width:1120px;margin:-28px auto 80px;padding:0 20px;position:relative}section{margin:34px 0 48px;scroll-margin-top:82px}h2{font-size:1.75rem;line-height:1.2;margin:0 0 18px}h3{font-size:1.07rem;margin:0 0 8px}p{margin:8px 0 12px}.lead{font-size:1.05rem;color:var(--muted);max-width:820px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:#fff;border:1px solid var(--line);border-radius:17px;padding:22px;box-shadow:0 7px 25px #1a355009}.card p:last-child,.card ul:last-child{margin-bottom:0}.kicker{font-size:.73rem;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:var(--blue)}.big{font-size:1.55rem;font-weight:800;line-height:1.2;margin:8px 0}.notice{border-left:5px solid var(--gold);background:#fff7e5;padding:17px 21px;border-radius:0 13px 13px 0;margin:17px 0}.notice.critical{border-color:var(--red);background:#fff1ef}.notice.good{border-color:var(--green);background:#eaf7f3}ul,ol{padding-left:1.3em;margin:9px 0}li{margin:5px 0}a{color:var(--blue)}
+    .table-wrap{overflow:auto;background:#fff;border:1px solid var(--line);border-radius:17px;box-shadow:0 7px 25px #1a355009}table{width:100%;border-collapse:collapse;min-width:740px}th{text-align:left;background:#e9f0f6;font-size:.74rem;letter-spacing:.07em;text-transform:uppercase;color:#335272}th,td{padding:13px 14px;vertical-align:top;border-bottom:1px solid var(--line)}tr:last-child td{border:0}tr.today{background:#e5f6f2}tr:hover td{background:#f7fafc}.tag{display:inline-block;border-radius:99px;padding:3px 9px;font-size:.75rem;font-weight:750;background:#e8f2fb;color:#244b79}.tag.room{background:#e9f5ee;color:#17624f}.tag.live{background:#135d58;color:white}.cols{display:grid;grid-template-columns:1fr 1fr;gap:15px}.rule{border-top:4px solid var(--cyan)}.rule.warn{border-color:var(--red)}.rule.pledge{border-color:var(--gold)}.steps{counter-reset:item;display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.step{position:relative;padding-left:55px}.step:before{counter-increment:item;content:counter(item);position:absolute;left:20px;top:20px;width:25px;height:25px;background:var(--blue);border-radius:50%;color:white;text-align:center;font-weight:750;line-height:25px;font-size:.85rem}
+    .checklist{display:grid;grid-template-columns:1fr 1fr;gap:9px}.check{display:flex;align-items:flex-start;gap:12px;background:white;border:1px solid var(--line);padding:13px 15px;border-radius:11px;cursor:pointer}.check input{accent-color:var(--green);width:18px;height:18px;flex:none;margin-top:3px}.check:has(input:checked){background:#eff8f4;color:#31564d}.check span{flex:1}.progress{height:9px;background:#dbe5e9;border-radius:99px;overflow:hidden;margin:8px 0 16px}.progress>i{display:block;height:100%;width:0;background:var(--green);transition:width .2s}.small{font-size:.88rem;color:var(--muted)}.actions{display:flex;gap:9px;align-items:center;flex-wrap:wrap}button{border:0;background:var(--blue);color:white;border-radius:9px;padding:9px 13px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}button.secondary{background:#e8eef4;color:var(--blue)}footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:.84rem}
+    @media(max-width:760px){.grid,.cols,.steps,.checklist{grid-template-columns:1fr}.hero{padding:34px 20px 57px}main{padding:0 14px}.card{padding:18px}}
+    @media print{body{background:white;font-size:11px}nav,.actions{display:none}.hero{padding:24px;color:var(--ink);background:white;border-bottom:3px solid var(--blue)}.hero p{color:var(--ink)}.hero .pill{color:var(--ink);border-color:var(--line)}main{margin:0;max-width:none}.card,.table-wrap{box-shadow:none;break-inside:avoid}section{margin:18px 0;break-inside:avoid}h2{font-size:1.35rem}.grid,.cols,.steps,.checklist{gap:7px}tr.today{background:transparent}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="eyebrow">Guía personal de estudio · 2026</div>
+    <h1>Gestión de Relacionamiento Comunitario Territorial</h1>
+    <p>Horarios, reglas, trabajo grupal y una ruta clara para llegar al panel final con una propuesta defendible.</p>
+    <a class="zoom-link" href="https://uai-cl.zoom.us/j/93858733796" target="_blank" rel="noopener noreferrer">Entrar a Zoom de las clases online ↗</a><span class="zoom-note">Enlace compartido por el estudiante para todos los cursos</span><br>
+    <span class="pill">UAI · modalidad presencial + online sincrónica</span><span class="pill">16 nov — 15 dic</span><span class="pill">Horario de Chile continental</span>
+  </header>
+  <nav aria-label="Secciones"><div class="inner"><a href="#ahora">En breve</a><a href="#horarios">Horarios</a><a href="#reglas">Reglas</a><a href="#trabajo">Trabajo y presentación</a><a href="#entrega">Checklist</a><a href="#pendientes">Por confirmar</a></div></nav>
+  <main>
+    <section id="ahora">
+      <div class="grid">
+        <article class="card"><div class="kicker">Hoy · lunes 16 de noviembre</div><div class="big">17:00 charla<br>18:00 sesión 1</div><p>Ambas presenciales. La sesión termina a las 21:30. Llega con tiempo y lleva una idea de caso actual para trabajar en grupo.</p></article>
+        <article class="card"><div class="kicker">Tu trabajo central</div><div class="big">Un plan estratégico</div><p>Elegir un caso, desarrollar ejercicios durante el curso, presentar la estrategia el 15 de diciembre e incorporar luego las observaciones del panel.</p></article>
+        <article class="card"><div class="kicker">Regla que no se te puede pasar</div><div class="big">Cita la IA</div><p>El Código de Honor califica como infracción grave usar herramientas de inteligencia artificial sin la cita correspondiente. También prohíbe hacer pasar una obra ajena por propia.</p></article>
+      </div>
+    </section>
+    <section id="horarios">
+      <h2>Horarios de clases</h2><p class="lead">El programa fija estas sesiones. Todas contemplan un descanso de 20 minutos; el momento exacto del descanso no está indicado. Para las sesiones online, usa el <a href="https://uai-cl.zoom.us/j/93858733796" target="_blank" rel="noopener noreferrer">acceso directo a Zoom</a>.</p>
+      <div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Horario</th><th>Actividad y foco</th><th>Modalidad</th><th>Avance del caso</th></tr></thead><tbody>
+        <tr data-date="2026-11-16"><td><strong>Lun 16 nov</strong></td><td>17:00–17:45<br>18:00–21:30</td><td>Charla inaugural sobre litio en el Salar de Atacama.<br>Sesión 1 · Territorio, comunidad y relacionamiento.</td><td><span class="tag room">Presencial</span></td><td>Elegir caso actual; ejercicio 1: descripción, diagnóstico e historia.</td></tr>
+        <tr data-date="2026-11-19"><td><strong>Jue 19 nov</strong></td><td>18:00–21:15</td><td>Sesión 2 · Conflictos, controversias y acción colectiva.</td><td><span class="tag">Online en vivo</span></td><td>Ejercicio 2: mapa conceptual, incentivos y límites.</td></tr>
+        <tr data-date="2026-11-24"><td><strong>Mar 24 nov</strong></td><td>18:00–21:15</td><td>Sesión 3 · Comprensión del territorio y mapeo de actores.</td><td><span class="tag">Online en vivo</span></td><td>Ejercicio 3: perfiles de actores y entorno.</td></tr>
+        <tr data-date="2026-11-26"><td><strong>Jue 26 nov</strong></td><td>18:00–21:15</td><td>Sesión 4 · Planes de relacionamiento, indicadores y KPI.</td><td><span class="tag">Online en vivo</span></td><td>Ejercicio 4: estrategia y KPI pertinentes.</td></tr>
+        <tr data-date="2026-12-01"><td><strong>Mar 1 dic</strong></td><td>18:00–20:00</td><td>Sesión 5 · Gestión de controversias y conflictos socioambientales.</td><td><span class="tag">Online en vivo</span></td><td>Ejercicio 5: herramientas de intervención.</td></tr>
+        <tr data-date="2026-12-03"><td><strong>Jue 3 dic</strong></td><td>18:00–20:00</td><td>Sesión 6 · Gestión de valor social territorial.</td><td><span class="tag">Online en vivo</span></td><td>Ejercicio 6: valor social, bienestar y visión territorial.</td></tr>
+        <tr data-date="2026-12-10"><td><strong>Jue 10 dic</strong></td><td>18:00–21:15</td><td>Sesión 7 · Gestión del cambio para el relacionamiento.</td><td><span class="tag">Online en vivo</span></td><td>Ejercicio 7: resistencias internas y cambio organizacional.</td></tr>
+        <tr data-date="2026-12-15"><td><strong>Mar 15 dic</strong></td><td>17:00–17:45<br>18:00–21:30</td><td>Panel integrado y sesión 8 · Presentaciones de planes estratégicos.</td><td><span class="tag room">Presencial</span></td><td>Presentar; integrar después los comentarios en el trabajo final.</td></tr>
+      </tbody></table></div>
+      <p class="small">El documento general de acceso al campus indica Av. Santa María 5870, Torre B, piso -1, Vitacura. Confirma con coordinación que esa sea la sede asignada a estas dos jornadas presenciales.</p>
+    </section>
+    <section id="reglas">
+      <h2>Qué puedes hacer, qué evitar y a qué te comprometes</h2>
+      <div class="grid">
+        <article class="card rule"><h3>Puedes hacer</h3><ul><li>Participar, discutir casos reales y usar fuentes y herramientas para fundamentar tu análisis.</li><li>Trabajar en equipo y aprovechar la experiencia profesional, cuidando datos de terceros.</li><li>Usar IA como apoyo si citas su uso y respetas las instrucciones específicas de la evaluación.</li><li>Solicitar revisión de una nota por escrito al profesor dentro de 7 días corridos desde su entrega.</li></ul></article>
+        <article class="card rule warn"><h3>No debes hacer</h3><ul><li>Presentar texto, imágenes, análisis u obras ajenas como propios, ni usar IA sin citarla.</li><li>Usar o facilitar información en una evaluación de una forma prohibida por sus instrucciones.</li><li>Inventar fuentes, datos, consultas a comunidades, resultados o acuerdos.</li><li>Revelar información confidencial obtenida en el trabajo profesional o académico.</li><li>Usar el nombre o los logos UAI sin autorización.</li></ul></article>
+        <article class="card rule pledge"><h3>Te comprometes</h3><ul><li>Entrar puntualmente y participar de forma activa, sin distracciones digitales.</li><li>Contribuir al trabajo grupal y resolver oportunamente problemas de colaboración.</li><li>Cumplir la asistencia aplicable y entregar la evaluación en el plazo que se informe.</li><li>Conocer el Código de Honor y completar la evaluación docente al terminar el curso.</li></ul></article>
+      </div>
+      <div class="notice"><strong>Asistencia:</strong> el programa pide al menos 75% y considera ausente a quien llegue más de 15 minutos tarde. El reglamento establece 75% de clases presenciales y, para cursos online, conexión activa por al menos 60% de las horas de dedicación. Al ser un curso blended, conviene confirmar cómo computarán ambas modalidades.</div>
+      <div class="notice critical"><strong>Evaluaciones:</strong> el reglamento prevé nota 1,0 por no rendir o no entregar a tiempo, salvo justificación en las condiciones señaladas allí. La aprobación académica requiere al menos 4,0, además de asistencia o conexión exigida. El programa disponible no detalla rúbrica, ponderación, formato ni fecha exacta de la entrega posterior al panel.</div>
+    </section>
+    <section id="trabajo">
+      <h2>Cómo desarrollar la presentación final</h2>
+      <p class="lead">Propuesta de estructura práctica basada en los ejercicios del programa. Ajusta duración, número de láminas y formato cuando el equipo docente entregue la pauta.</p>
+      <div class="steps">
+        <article class="card step"><h3>El caso y su historia</h3><p>Define territorio, problema, hitos, afectados, organización involucrada y decisión que debe tomarse. Distingue hechos, interpretaciones y vacíos de información. <em>Ejercicio 1.</em></p></article>
+        <article class="card step"><h3>Conflicto y actores</h3><p>Explica controversias, narrativas e incentivos; visualiza actores, intereses, posiciones, relaciones e influencia. No trates a la comunidad como un bloque uniforme. <em>Ejercicios 2 y 3.</em></p></article>
+        <article class="card step"><h3>Estrategia de relacionamiento</h3><p>Expón objetivo, principios, secuencia, responsables y actividades. Selecciona escucha, participación, diálogo o negociación según el momento y nivel de confianza. <em>Ejercicios 4 y 5.</em></p></article>
+        <article class="card step"><h3>Valor e implementación</h3><p>Vincula bienestar territorial, propuesta de valor social, indicadores con línea base y metas, gestión de compromisos, resistencias internas y cambio organizacional. <em>Ejercicios 4, 6 y 7.</em></p></article>
+      </div>
+      <div class="cols" style="margin-top:15px">
+        <article class="card"><h3>Guion sugerido de láminas</h3><ol><li>Pregunta central y resumen de la propuesta.</li><li>Territorio, contexto y cronología del caso.</li><li>Mapa de actores, relaciones y controversias.</li><li>Diagnóstico: causas, riesgos y oportunidades.</li><li>Objetivos y estrategia por etapas.</li><li>Mecanismos de diálogo, participación y gestión de compromisos.</li><li>Valor social, indicadores, línea base y seguimiento.</li><li>Gobernanza interna, resistencias y decisiones solicitadas.</li></ol></article>
+        <article class="card"><h3>Para que sea convincente</h3><ul><li>Una idea principal por lámina, mapas y gráficos legibles, fuentes pequeñas pero visibles.</li><li>Explica por qué cada acción responde al diagnóstico; no presentes sólo una lista de actividades.</li><li>Separa indicadores de actividad, resultado e impacto; indica cómo se medirán.</li><li>Identifica supuestos y datos que aún deben validarse con actores del territorio.</li><li>Ensaya el tiempo y reparte la exposición entre integrantes.</li><li>Después del panel, registra cada observación y el cambio que hicieron al documento.</li></ul></article>
+      </div>
+      <div class="notice good"><strong>Si usas un caso de Sierra Gorda o de tu trabajo:</strong> puede servir para aplicar herramientas reales, pero anonimiza personas, montos, contratos, reclamos y antecedentes internos que no estén autorizados para uso académico. Una versión pública del caso suele ser suficiente para construir el análisis.</div>
+    </section>
+    <section id="entrega">
+      <h2>Antes de entregar: revisión final</h2><p class="lead">Marca cada punto. La lista se guarda sólo en este navegador.</p>
+      <div class="actions"><span id="count" class="small" aria-live="polite">0 de 10 revisados</span><button class="secondary" id="reset" type="button">Reiniciar lista</button><button type="button" onclick="window.print()">Imprimir / guardar PDF</button></div><div class="progress" aria-hidden="true"><i id="bar"></i></div>
+      <div class="checklist" id="checks">
+        <label class="check"><input type="checkbox"><span>La pregunta, el caso, el territorio y el objetivo son claros.</span></label>
+        <label class="check"><input type="checkbox"><span>El diagnóstico distingue evidencia, hipótesis y límites.</span></label>
+        <label class="check"><input type="checkbox"><span>El mapa incluye diversidad de actores, intereses y relaciones.</span></label>
+        <label class="check"><input type="checkbox"><span>Las actividades responden a causas y riesgos del caso.</span></label>
+        <label class="check"><input type="checkbox"><span>Cada KPI tiene definición, línea base o método, meta, responsable y frecuencia.</span></label>
+        <label class="check"><input type="checkbox"><span>El plan incluye valor social, gobernanza, compromisos y cambio interno.</span></label>
+        <label class="check"><input type="checkbox"><span>Fuentes, imágenes, cifras y uso de IA están citados con honestidad.</span></label>
+        <label class="check"><input type="checkbox"><span>Se retiraron datos confidenciales o se obtuvo autorización para usarlos.</span></label>
+        <label class="check"><input type="checkbox"><span>El grupo verificó ortografía, legibilidad, tiempo y archivo final.</span></label>
+        <label class="check"><input type="checkbox"><span>Se confirmó formato, rúbrica, canal y plazo de entrega con el curso.</span></label>
+      </div>
+    </section>
+    <section id="pendientes">
+      <h2>Detalles que debes confirmar con coordinación</h2>
+      <div class="cols"><article class="card"><h3>Evaluación y entrega</h3><ul><li>Rúbrica, ponderación, duración por grupo, formato de archivo y canal de envío.</li><li>Plazo de entrega del documento revisado después del panel del 15 de diciembre.</li><li>El texto final dice “6 ejercicios anteriores”, mientras que el programa describe ejercicios 1 a 7: confirmar cuáles se incluyen.</li></ul></article><article class="card"><h3>Asistencia y logística</h3><ul><li>Cómo se registrará la asistencia del curso blended y si las sesiones online cuentan para el 75%.</li><li>Sede, sala y acceso para las jornadas presenciales.</li><li>Política específica del docente para declarar IA y citarla en el trabajo.</li></ul><p><strong>Coordinación académica:</strong> <a href="mailto:berta.soto@uai.cl">berta.soto@uai.cl</a></p></article></div>
+    </section>
+    <footer><strong>Base documental:</strong> Programa Curso UAI Gestión de Relacionamiento Comunitario Territorial 2026 (pp. 2–7); Reglamento para Cursos UAI, 25-04-2019 (arts. 4–5, 9–16, 19); Código de Honor UAI (arts. 6–8, 15–16, 20–21); Acceso a Campus Vitacura UAI. Esta guía resume esos textos y distingue sugerencias de requisitos formales. Ante diferencias, prevalecen las instrucciones oficiales del curso.</footer>
+  </main>
+  <script>
+    const boxes=[...document.querySelectorAll('#checks input')];
+    const key='uai-relacionamiento-checklist-v1';
+    try { const saved=JSON.parse(localStorage.getItem(key)||'[]');boxes.forEach((box,i)=>box.checked=!!saved[i]); } catch(e){}
+    function update(){const n=boxes.filter(x=>x.checked).length;document.querySelector('#count').textContent=`${n} de ${boxes.length} revisados`;document.querySelector('#bar').style.width=(n/boxes.length*100)+'%';try{localStorage.setItem(key,JSON.stringify(boxes.map(x=>x.checked)))}catch(e){}}
+    boxes.forEach(x=>x.addEventListener('change',update));document.querySelector('#reset').addEventListener('click',()=>{boxes.forEach(x=>x.checked=false);update()});update();
+    const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Santiago',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());document.querySelectorAll('tr[data-date]').forEach(row=>{if(row.dataset.date===today){row.classList.add('today');row.cells[0].insertAdjacentHTML('beforeend','<br><span class="tag live">Hoy</span>')}});
+  </script>
+</body>
+</html>
